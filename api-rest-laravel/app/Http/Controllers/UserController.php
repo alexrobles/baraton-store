@@ -23,7 +23,7 @@ class UserController extends Controller
             $data =  array(
                 'status' =>  'error' ,
                 'code' =>  404 ,
-                'message' =>  'Usuario/ Contraseña invalidos, valida' ,
+                'message' =>  'Usuario/Contraseña invalidos, valida' ,
                 'errors' => $validate->errors()
             );
        }else {
